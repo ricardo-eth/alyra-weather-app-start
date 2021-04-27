@@ -47,7 +47,7 @@ const WeatherApp = ({ city }) => {
       <Temperature mainTemp={mainTemp} feelsLike={feelsLike} />
       <Humidity humidity={humidity} />
       <p>
-        Pendant cette session vousavez fait {apiCallsOut} appels à l'API
+        Pendant cette session vous avez fait {apiCallsOut} appels à l'API
         openweatherApp
       </p>
     </section>
